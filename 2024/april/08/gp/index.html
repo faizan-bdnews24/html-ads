@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script>
+      var clickTag = "https://mygp.grameenphone.com/mygp/pack/entertainment/3879-3877-3876-3878?ofl=https://www.grameenphone.com/personal/services/digital-services/mygp-app&utm_source=Infostation_bdnews24&utm_medium=Display&utm_campaign=GPDM_SB_Playpack_Richmedia&utm_term=CPM&utm_content=Richmedia";
+    </script>
+  
+</head>
+
+<body>
+
+    <div class="iis_wrapper">
+        <a href="javascript:window.open(window.clickTag)">
+            <div class="img4">
+                <img class="playbacktext"
+                    src="images/playtext.png" alt="">
+                <img class="playback"
+                    src="images/playback.gif" alt="">
+            </div>
+            <img src="images/bg.png" alt="" class="bg" />
+            <div class="img3">
+                <img src="images/11.png" alt=""
+                    class="zapar11" />
+                <img src="images/22.png" alt=""
+                    class="hoichoi22" />
+                <img src="images/33.png" alt=""
+                    class="ipl33" />
+                <img src="images/44.png" alt=""
+                    class="rumi44" />
+            </div>
+            <div class="img2">
+                <img src="images/ex1.png" alt=""
+                    class="zapar111" />
+                <img src="images/ex2.png" alt=""
+                    class="hoichoi222" />
+                <img src="images/ex3.png" alt=""
+                    class="ipl333" />
+                <img src="images/ex4.png" alt=""
+                    class="rumi444" />
+                <img src="images/t1.png" alt=""
+                    class="text1" />
+                <img src="images/t2.png" alt=""
+                    class="text2" />
+            </div>
+            <div class="img1">
+                <div class="zapar1"></div>
+                <div class="hoichoi2"></div>
+                <div class="ipl3"></div>
+                <div class="rumi4"></div>
+
+            </div>
+        </a>
+        <!-- infostation logo -->
+        <img src="images/infologo.png" class="infoBtn"
+            draggable="false" />
+        <img src="images/closeBtn.png" class="closeBtn" />
+
+
+    </div>
+
+    <script>
+                var script = document.createElement('script');
+    
+    // Set the source attribute to the GSAP CDN URL
+    script.src = 'js/gsap.min.js';
+    
+    // Define a callback function to execute when the script is loaded
+    script.onload = function () {
+const tl=gsap.timeline({});function isMobile(){return/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)}
+const img1=document.querySelector(".img1");const img2=document.querySelector(".img2");const img3=document.querySelector(".img3");const playbacktext=document.querySelector(".playbacktext");const img4=document.querySelector(".img4");const zapar11=document.querySelector(".zapar11");const hoichoi22=document.querySelector(".hoichoi22");const ipl33=document.querySelector(".ipl33");const rumi44=document.querySelector(".rumi44");const zapar111=document.querySelector(".zapar111");const hoichoi222=document.querySelector(".hoichoi222");const ipl333=document.querySelector(".ipl333");const rumi444=document.querySelector(".rumi444");const zapar1=document.querySelector(".zapar1");const hoichoi2=document.querySelector(".hoichoi2");const ipl3=document.querySelector(".ipl3");const rumi4=document.querySelector(".rumi4");const text1=document.querySelector(".text1");const text2=document.querySelector(".text2");const bg=document.querySelector(".bg");const final=document.querySelector(".final");const overlay=document.querySelector(".overlay");window.onload=()=>{tl.from(img3,{y:"100%",duration:1,onStart:()=>{img3.style.display="block"},}).fromTo(playbacktext,{y:"0",x:"-100px",duration:1,opacity:0,display:"none"},{y:0,x:"0",opacity:"1",display:"block"},"<+.8").to(zapar11,{y:"-150vw",x:"70vw",duration:6,onStart:()=>{zapar11.style.display="block"},}).to(hoichoi22,{y:"-150vw",x:"-70vw",duration:6,onStart:()=>{hoichoi22.style.display="block"},},"<+.4").to(ipl33,{y:"-150vw",x:"75vw",duration:6,onStart:()=>{ipl33.style.display="block"},},"<+.6").to(rumi44,{y:"-150vw",x:"-75vw",duration:6,onStart:()=>{rumi44.style.display="block"},},"<+.8").to('.zapar11,.hoichoi22,.ipl33,.rumi44',{display:"none"},"<+.4").fromTo(img2,.5,{display:"none"},{display:"block",},'<+.5').fromTo(bg,.5,{display:"none",rotation:5},{display:"block",rotation:0},"<").fromTo(zapar111,1,{display:"none",y:"10vw"},{y:"0vw",display:"block"},'<+.3').fromTo(hoichoi222,1,{display:"none",y:"10vw"},{y:"0vw",display:"block"},'<+.3').fromTo(ipl333,1,{display:"none",y:"10vw"},{y:"0vw",display:"block"},'<+.3').fromTo(rumi444,1,{display:"none",y:"10vw"},{y:"0vw",display:"block"},'<+.3').fromTo(text1,1,{display:"none",y:"10vw"},{y:"0vw",display:"block"},'<+.3').fromTo(text2,1,{display:"none",y:"10vw"},{y:"0vw",display:"block"},'<+.3').to('.img3,.img2',{display:"none",opacity:0}).to(img1,.2,{display:"block"},"<.2").fromTo(".zapar1",1,{display:"none",x:"100vw",y:"0",opacity:0},{display:"block",x:"0",y:"0",opacity:1,},'<.1').fromTo(".zapar1",1,{display:"none",x:"0",y:"0",opacity:1,},{display:"block",x:"-100vw",y:"0",opacity:0,},">1").fromTo(".hoichoi2",1,{display:"none",x:"100vw",y:"0",opacity:0},{display:"block",x:"0",y:"0",opacity:1,},'<').fromTo(".hoichoi2",1,{display:"none",x:"0",y:"0",opacity:1,},{display:"block",x:"-100vw",y:"0",opacity:0,},">1").fromTo(".ipl3",1,{display:"none",x:"100vw",y:"0",opacity:0},{display:"block",x:"0",y:"0",opacity:1,},'<').fromTo(".ipl3",1,{display:"none",x:"0",y:"0",opacity:1,},{display:"block",x:"-100vw",y:"0",opacity:0,},">1").fromTo(".rumi4",1,{display:"none",x:"100vw",y:"0",opacity:0},{display:"block",x:"0",y:"0",opacity:1,},'<')
+let iis_wrapper_dd=document.querySelector('.iis_wrapper');setTimeout(function(){gsap.to(".iis_wrapper",0.5,{x:"0",y:"170vh",scale:.5,opacity:0,onComplete:function(){iis_wrapper_dd.remove()}})},17000)};let closeBtn=document.querySelector(".closeBtn");let iis_wrapper=document.querySelector(".iis_wrapper");closeBtn.addEventListener("click",function(){gsap.to(".iis_wrapper",0.5,{display:"none",x:"0",y:"170vh",scale:.5,onComplete:function(){iis_wrapper.remove()}})})
+
+    }
+    document.body.appendChild(script);
+    </script>
+</body>
+
+</html>
